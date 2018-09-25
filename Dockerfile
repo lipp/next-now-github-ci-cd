@@ -10,7 +10,7 @@ RUN yarn install
 # Copy all files to the working directly, build the application
 # and purge the development dependencies
 COPY . .
-RUN yarn build && yarn --production
+RUN yarn test && yarn build && yarn --production
 
 # Create a new image using a minimal Node.js image
 # with no extra tools packaged in, such as Yarn or npm for the smallest final size
