@@ -1,4 +1,6 @@
 *
+!__tests__
+!.babelrc
 !pages
 !components
 !package.json

@@ -1,6 +1,7 @@
 {
   "name": "next-github-test",
   "scripts": {
+    "test": "NODE_ENV=test jest",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -9,5 +10,20 @@
     "next": "^7.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup/setupEnzyme.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/setup/",
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ]
   }
 }
