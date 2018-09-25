@@ -2,7 +2,7 @@ export default () => (
   <p>Welcome to Next.js!
     <style jsx>{`
       p {
-        color: green;
+        color: red;
       }
     `}</style>
   </p>
