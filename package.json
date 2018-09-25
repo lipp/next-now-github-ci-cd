@@ -1,6 +1,7 @@
 {
   "name": "next-github-test",
   "scripts": {
+    "test": "echo 'No Tests!' && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start"
