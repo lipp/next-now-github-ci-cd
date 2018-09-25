@@ -1,4 +1,5 @@
 {
+  "alias": ["next-github-ci-cd"],
   "type": "docker",
   "features": {
     "cloud": "v2"
