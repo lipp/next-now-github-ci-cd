@@ -1,5 +1,5 @@
 export default () => (
-  <p>Welcome to Next.js!
+  <p>Hello Next.js!
     <style jsx>{`
       p {
         color: red;
